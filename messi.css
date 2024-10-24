@@ -1,0 +1,267 @@
+html{
+    background-color: rgba(255, 255, 0, 0.337);
+}
+
+body>header>h1{
+    color: #6E0B14;
+    font-size: 4rem;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type:none;
+  }
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:1.2rem;
+    text-align: center;
+}
+
+nav ul, nav li{
+    margin: 0;
+    padding:0;
+  }
+
+nav>ul.meniu>li>ul.submeniu{
+    visibility:hidden;
+   }
+
+nav>ul.meniu>li:hover>ul.submeniu{
+    visibility:visible;
+}
+
+nav>ul.meniu{
+     display:flex;
+     flex-direction:row;
+     flex-wrap:nowrap;
+     justify-content: space-evenly;}
+
+ul.meniu>li{
+        border:2px solid black;
+        flex-basis:10%;
+        text-align:center;
+        height:2.5rem;
+    }
+
+ul.meniu>li>ul.submeniu>li{
+            width: 100%;
+            text-align:center;
+            background-color:#6E0B14;
+            border:2px solid black;}
+
+nav{
+top:0;
+position:sticky;} 
+
+nav li{
+    transition: background-color 2s, color 2s;
+  }
+
+nav li:hover{
+    background-color: blue;
+}
+
+nav>ul.meniu>li>ul.submeniu>li{
+  transition: background-color 2s;
+}
+
+nav>ul.meniu>li>ul.submeniu>li:hover{
+    background-color: blue;
+}
+
+#biografie>h2{
+  font-size: 3rem;
+  text-align: center;
+  color: blue;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#copilarie>h3{
+    font-size: 2rem;
+}
+
+#copilarie{
+    background-image: url("Resurse/messi6.jpeg");
+    background-size: cover;
+    width: 1500px;
+    height: 1700px;
+}
+
+#copilarie>p{
+    font-size: 2.5rem;
+    animation-name:marire, culoare;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marire {
+    0%{opacity: 0.2;}
+    33%{opacity: 0.5;}
+    67%{opacity: 0.8;}
+    100%{opacity: 1;}
+}
+
+@keyframes culoare {
+    0%{color: #6E0B14;}
+    33%{color: #190442;}
+    67%{color:blue;}
+    100%{color: black;}
+}
+
+#copilarie>p:nth-child(3){
+    text-align: center;
+    font-size: 4rem;
+}
+
+#copilarie>ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.galerie-statica>img{
+    margin-left: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+.galerie-statica{
+    border: 3px solid red;
+    width: 600px;
+}
+
+#perioada_Barcelona>h3{
+  font-size: 2rem;
+}
+
+#perioada_Barcelona{
+    background-image: url("Resurse/messi10.jpg");
+    background-size: cover;
+    width: 1500px;
+    height: 1200px;
+}
+
+#perioada_Barcelona>p{
+    font-size: 2.5rem;
+}
+
+.grid1-container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: auto auto;
+}
+
+.grid1-container img{
+    margin-left: 50px;
+    width: 130px;
+    height: 100px;
+}
+
+.grid1-container figcaption{
+    font-size: 0.8rem;
+}
+
+.grid1-container figure{
+    transition: transform 2s;
+    margin-left: 200px; 
+}
+
+.grid1-item1{
+    opacity: 0;
+    animation-name: aparitie;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+.grid1-item2{
+    opacity: 0;
+    animation-name: aparitie;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+.grid1-item3{
+    opacity: 0;
+    animation-name: aparitie;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+.grid1-item4{
+    opacity: 0;
+    animation-name: aparitie;
+    animation-delay:4s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aparitie{
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity:1;}
+}
+
+.grid1-container figure:hover{
+    transform: scale(2);}
+
+#viata_personala>h3{
+    font-size: 2rem;
+}
+
+#viata_personala>p{
+    font-size: 2.5rem;
+}
+
+#viata_personala>img{
+    width: 1500px;
+    height: 800px;
+}
+
+#palmares>h2{
+    font-size: 3rem;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#palmares dt{
+    font-size: 2rem;
+}
+
+#statistici>h2{
+    font-size: 3rem;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#statistici>p{
+    font-size: 2rem;
+    color:#6E0B14; 
+}
+
+footer a{
+    display:inline-block;
+    color:yellow;
+    background-color:black;
+    padding:20px;
+    border:1px solid red;
+    border-radius:30px;
+}
+footer a:hover{
+    background-color:blue;
+}

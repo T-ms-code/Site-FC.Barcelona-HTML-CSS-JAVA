@@ -1,0 +1,266 @@
+html{
+    background-color: olivedrab;
+}
+
+body>header>h1{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    animation-name: animatie1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatie1{
+ from {color: black;}
+  to {color: white;}
+  }	
+
+nav ul{
+    list-style-type:none;
+  }
+
+nav a{
+    margin: auto;
+    text-decoration:none;
+    color:black;
+    font-size:1rem;
+}
+
+nav ul, nav li{
+    margin:0;
+    padding:0;
+  }
+
+nav>ul.meniu>li>ul.submeniu{
+    visibility:hidden;
+   }
+
+nav>ul.meniu>li:hover>ul.submeniu{
+    visibility:visible;
+}
+
+nav>ul.meniu{
+     display:flex;
+     flex-direction:column;
+     flex-wrap:nowrap;
+     justify-content: space-between;}
+
+ul.meniu>li{
+        border:2px solid black;
+        flex-basis:10%;
+        text-align:center;
+        height:1.5rem;}
+
+ul.meniu>li>ul.submeniu>li{
+            width: 100%;
+            text-align:center;
+            background-color:yellow;
+            border:2px solid black;}
+
+nav{
+top:0;
+position:sticky;} 
+
+nav li{
+    transition: background-color 2s, color 2s;
+  }
+
+nav li:hover{
+    background-color: red;
+}
+
+nav>ul.meniu>li>ul.submeniu>li{
+  transition: background-color 2s;
+}
+
+nav>ul.meniu>li>ul.submeniu>li:hover{
+    background-color: red;
+}
+
+#conducere{
+    background-color: #6E0B14;
+    padding-top:250px;
+    padding-bottom: 250px;
+    font-size:3rem;
+}
+
+.grid1-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    height:600px;
+    width: 410px;
+}
+
+.grid1-item1{
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.grid1-item2{
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.grid1-item3{
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.grid1-item4{
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.grid1-item5{
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.grid1-item6{
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.grid1-item1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.grid1-item2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.grid1-item3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.grid1-item4 img{
+    width: 100px;
+    height: 100px;
+}
+
+.grid1-item5 img{
+    width: 100px;
+    height: 100px;
+}
+
+.grid1-item6 img{
+    width: 100px;
+    height: 100px;
+}
+
+#stuff{
+    font-size: 3rem;
+}
+
+#echipa_tehnica>h3{
+    font-size: 2rem;
+}
+
+#echipa_tehnica li{
+    font-size: 1rem;
+}
+
+#echipa_tehnica img{
+    width: 150px;
+    height: 150px;
+    border:3px solid #6E0B14;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.grid2-container{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 1900px;
+    background-color: #6E0B14;
+    padding: 10px;
+    margin: 10px;
+    height:2800px;
+    width: 520px; 
+    column-gap: 10px;
+}
+
+.grid2-item p{
+   font-size: 2rem;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.grid2-item img{
+     width: 300px;
+     height: 300px;
+     border: 3px solid blue;
+     margin-left: 50px;
+}
+
+.grid2-item figcaption{
+    font-size: 1rem;
+}
+
+.grid2-item figure{
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.grid2-item figure:hover{
+    opacity: 1;
+}
+
+#antrenori_remarcabili>h3{
+    font-size: 2rem;
+}
+
+
+#buget>h2{
+ font-size: 3rem;
+}
+
+#col{ column-width: 200px;
+    column-gap: 10px;
+    column-rule: 3px solid #6E0B14;
+
+}
+
+#coeficient>h2{
+  font-size:3rem;
+}
+
+#coeficient p{
+    font-size: 1rem;
+}
+
+#coeficient li{
+    font-size: 1rem;
+}
+
+footer a{
+    display:inline-block;
+    color:yellow;
+    background-color:black;
+    padding:20px;
+    border:1px solid red;
+    border-radius:30px;
+}
+footer a:hover{
+    background-color:blue;
+}
