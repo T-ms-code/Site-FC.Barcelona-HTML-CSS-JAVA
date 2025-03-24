@@ -7,7 +7,7 @@ The site is also responsive and has attached CSS and JavaScript files.
 **Concepts used**   
 I)HTML and CSS:     
 1)Separate files for HTML and CSS  
-2)Semantic HTML tags (e.g., <header>, <footer>, <article>, etc.)  
+2)Semantic HTML tags (e.g., header, footer, article, etc.)  
 3)HTML Validation using W3C HTML Validator  
 4)CSS Validation using W3C CSS Validator  
 5)Responsive design: media queries, relative units (e.g., %, em, rem), display types (e.g., block, inline, flex, grid)  
@@ -20,8 +20,8 @@ I)HTML and CSS:
 12)CSS animations (modifying multiple properties of the same element)      
 
 I)JavaScrip:    
-13)Separate JavaScript file
-14)Styling an element or group of elements  
+13)Separate JavaScript file  
+14)Styling an element or group of elements    
 15)DOM manipulation: selecting elements by ID, tag, class, CSS selector   
 16)Creating and removing DOM elements
 17)Handling mouse and keyboard events   
