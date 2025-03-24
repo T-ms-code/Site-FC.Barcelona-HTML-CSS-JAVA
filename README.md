@@ -23,7 +23,7 @@ I)JavaScrip:
 13)Separate JavaScript file  
 14)Styling an element or group of elements    
 15)DOM manipulation: selecting elements by ID, tag, class, CSS selector   
-16)Creating and removing DOM elements
+16)Creating and removing DOM elements   
 17)Handling mouse and keyboard events   
 18)Modifying element properties   
 19)Functional inputs: text, range, number, radio, checkbox etc.    
