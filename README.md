@@ -4,7 +4,7 @@ It includes a general page: barca.html, along with other linked pages: administr
 The site is also responsive and has attached CSS and JavaScript files.    
 
 
-**Concepts used**   
+**Used concepts**   
 I)HTML and CSS:     
 1)Separate files for HTML and CSS  
 2)Semantic HTML tags (e.g., header, footer, article, etc.)  
